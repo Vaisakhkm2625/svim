@@ -41,7 +41,10 @@ if (typeof browser === 'undefined') {
         { keyCombination: 'yy', command: 'cmd_copyUrl' },
         { keyCombination: 'H', command: 'cmd_historyBack' },
         { keyCombination: 'L', command: 'cmd_historyForward' },
-        { keyCombination: 'I', command: 'cmd_toggleBindings' }, // this, not taking from here
+
+        // this, not taking from here,
+        // just here to document not sure how to add ctrl,alt bindings
+        { keyCombination: 'alt-i', command: 'cmd_toggleBindings' }, 
     ];
 
     const maxCombinationLength = actions.reduce((a, c) => Math.max(a, c.keyCombination.length), 0);
@@ -221,9 +224,9 @@ if (typeof browser === 'undefined') {
         const key = e.key;
         const inEditable = isEditable(document.activeElement);
 
-
         //shift - i for toggling input
-        if (e.shiftKey && e.key.toUpperCase() === 'I') {
+        if (e.altKey && e.key === 'i') {
+            console.log("toggling input")
             e.preventDefault();
             e.stopPropagation();
             e.stopImmediatePropagation();
