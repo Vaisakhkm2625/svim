@@ -1,16 +1,16 @@
-# svim - Simple extention for vim motions in the browser
 
+# svim — A Simple Extension for Vim Motions in the Browser
 
-## why? vimium exists
+> *Why? Vimium exists.*
 
-why not?
+Why not?
 
-but seriously, this extension needs serious accesses, like needed to be able to read 
-everything i do in my browser - and previous incidents showed me that this power is definitely abused [surfingkeys issue](https://github.com/brookhong/Surfingkeys/issues/1796). most other extention didn't scratch the itch well for me, either complicated 
+But seriously — an extension like this requires significant permissions, essentially the ability to read everything I do in my browser. Past incidents (like the [surfingkeys issue](https://github.com/brookhong/Surfingkeys/issues/1796)) have shown that this level of access can easily be abused. Most other extensions didn’t quite scratch the itch for me — they’re either too complicated or too feature-heavy.
 
-Even though i loved surfingkeys, i don't needed all the power it gives. And i find the  [tridactyl](https://github.com/tridactyl/tridactyl) even more complicated.
+I really liked SurfingKeys, but I didn’t need all the power it offered. [Tridactyl](https://github.com/tridactyl/tridactyl) felt even more complex.
 
-And in the era of LLMS, this is a weekend project.
+And in the era of LLMs, this sounds like the perfect weekend project.
+
 
 
 ## Installation
