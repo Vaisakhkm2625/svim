@@ -25,6 +25,12 @@ Code base is fairly simple. so any improvements can by  done in the extension co
 
 load open this manifest file
 
+## keybinds
+
+checkout - content.js - mostly vim like.. 
+
+https://github.com/Vaisakhkm2625/svim/blob/f6014a9854b722c768fb2ddcdc944145c56e5af3/content.js#L30-L45
+
 
 ## LICENCE
 
